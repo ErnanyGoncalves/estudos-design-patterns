@@ -1,10 +1,14 @@
 import { AirLogistics, RoadLogistics, SeaLogistics } from "./Logistics";
 
 /**
- *  Public class x export
- *  
+ *  O que é isso?
+ *  warning: CRLF will be replaced by LF the next time Git touches it
  * 
- *  É errado eu criar um construtor no Logistics pra criar uma das subclasses a partir de um parametro? ou isso fere SOLID?
+ * * * * * 
+ *  Storybook
+ *  Config prettier por pra formatar automaticamente  x husky
+ *  .gitignore
+ *  melhor forma de att pacotes
  */
 
 const roadL = new RoadLogistics();

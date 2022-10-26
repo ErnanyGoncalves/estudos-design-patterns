@@ -1,7 +1,3 @@
-/**
- *  Feri Solid no CoffeTable?
- */
-
 import {
   ArtDecoFurnitureFactory,
   ModernFurnitureFactory,
