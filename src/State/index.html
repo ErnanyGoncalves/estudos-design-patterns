@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stoplight</title>
+
+    <style>
+        .stoplight{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            background-color: #999;
+            border: 2px solid black;
+            width: 80px;
+            height: 220px;
+        }
+
+        .red, .orange, .green,.blue{
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            /* width: 60px;
+            height: 60px; */
+            border: 1.5px solid black;
+        }
+
+        .red{
+            background-color: #460000;
+        }
+        .orange{
+            background-color: #462800;
+        }
+        .green{
+            background-color: #00300c;
+        }
+        .blue{
+            background-color: #000730;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="stoplight">
+        <div class="red"></div>
+        <div class="orange"></div>
+        <div class="green"></div>
+        <div class="blue"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
